@@ -7,39 +7,26 @@
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
-  
-    
 
   <!-- Navbar -->
   <nav>
-    <h1>Sip & Social</h1>
+    <div class="logo"><img src="logo.jpeg.jpeg" alt="Sip & Social Logo"></div>
     <ul>
       <li><a href="#about">About</a></li>
       <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-   
     </ul>
   </nav>
-  <nav>
-  <div class="logo">
-    <img src="logo.jpeg.jpeg" alt="Sip & Social Logo">
-  </div>
- 
-
- 
-</nav>
-
-  
-
 
   <!-- Hero -->
   <div class="hero">
-    <div>
+    <div class="hero-content">
       <h2>Welcome to Sip & Social</h2>
-      <p>Bring Your celebrations to life </p>
+      <p>Bring Your Celebrations to Life</p>
+      <button class="btn" onclick= "window.location.href='about.html'">
+        Plan Your Event
+      </button>
     </div>
   </div>
-
 
   <!-- About -->
   <section id="about">
@@ -51,48 +38,27 @@
   <section id="services">
     <h2>Our Services</h2>
     <div class="services">
-      <div class="card">
-        <h3>private Parities </h3>
-        <p>Birthday celebrations, anniversaries, and more — stylishly organised.</p>
-      </div>
-      <div class="card">
-        <h3>Showers</h3>
-        <p>Beautifully planned weddings with attention to every detail.</p>
-      </div>
-      <div class="card">
-        <h3>pop & more </h3>
-        <p> work shops , fansy Pop-ups & more  .</p>
-      </div>
-      <div class="card">
-        <h3>Social Gatherings</h3>
-        <p>Community events and cultural programs that bring people together.</p>
-      </div>
+      <div class="card"><h3>Private Parties</h3><p>Birthdays, anniversaries, and more — stylishly organised.</p></div>
+      <div class="card"><h3>Showers</h3><p>Beautifully planned baby & bridal showers.</p></div>
+      <div class="card"><h3>Pop-ups & More</h3><p>Workshops, pop-ups, and unique experiences.</p></div>
+      <div class="card"><h3>Social Gatherings</h3><p>Community events and cultural programs that bring people together.</p></div>
     </div>
   </section>
-    <!-- Contact -->
- 
 
-  
-  </section>
-  <!-- Contact -->
-<section id="contact">
-  <h2>Contact Us</h2>
-  <p>If you’d like to plan your next event with us, reach out below:</p>
-  
-  <button class="contact-btn" onclick="window.location.href='about.html'">
-  Open Contact Form
-</button>
-
-</section>
-
+  <!-- Contact Modal -->
+  <div id="contactModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="window.location.href='about.html >&times; </span>
+      <h3>Contact Us</h3>
+      
+    </div>
+  </div>
 
   <!-- Footer -->
   <footer>
     <p>&copy; 2025 Sip & Social | All Rights Reserved</p>
   </footer>
 
-  <!-- JavaScript -->
-  <script src="script.js"></script>
-
 </body>
 </html>
+
